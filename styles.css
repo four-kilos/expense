@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #121212;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -14,8 +14,8 @@ button {
     padding: 8px;
     border-radius: 5px;
     border: none;
-    background-color: #ff5500;
-    color: black;
+    background-color: #333333;
+    color: #ffffff;
     cursor: pointer;
 }
 table {
@@ -24,13 +24,13 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #555555;
     padding: 10px;
     text-align: left;
     cursor: pointer;
 }
 th {
-    background-color: #333;
+    background-color: #444444;
 }
 #chart-container {
     display: none;
@@ -38,7 +38,7 @@ th {
 }
 #budget-chart {
     width: 350px !important; /* Increased size */
-    height: 350px !important; /* Increased size */
+    height: 400px !important; /* Increased size */
 }
 .tab-buttons {
     margin-top: 20px;
@@ -50,8 +50,8 @@ th {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #ff5500;
-    color: black;
+    background-color: #333333;
+    color: #ffffff;
     font-size: 24px;
     display: flex;
     align-items: center;
